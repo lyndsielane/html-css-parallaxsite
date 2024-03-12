@@ -1,0 +1,31 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#section1 {
+  background-image: url(./assets/vecteezy_concept-of-nebula-with-galaxies-in-deep-space-cosmos_22717224.jpg);
+}
+
+#section2 {
+  background-image: url(./assets/vecteezy_abstract-outer-space-endless-nebula-galaxy-background-with_22263279.jpg);
+}
+
+.content-section {
+  text-align: center;
+  padding: 15px;
+}
